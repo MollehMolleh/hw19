@@ -50,14 +50,23 @@
         </div>
       </section>
 
-      <section class="sectionthree">
-        <h1>LET'S GET TO KNOW EACH OTHER.</h1>
-        <div class="section-content">
-            <img class="behance" src="behance.png" alt="Image" width="143px">
-            <img src="contactform.png" alt="Image" width="600px">
-            <img class="linkedin" src="linkedin.png" alt="Image" width="155px">
+       <section class="sectionthree">
+    <h1>LET'S GET TO KNOW EACH OTHER.</h1>
+    <div class="section-content">
+        <img class="behance" src="behance.png" alt="Image" width="143px">
+        <!-- Form -->
+        <div class="container">
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Get in touch.</h3>
+              <input type="text" id="name" placeholder="Your name" required>
+              <input type="email" id="email" placeholder="Your email" required>
+              <textarea id="message" rows="4" placeholder="Write your message here."></textarea>
+            <button type="submit">SEND</button>
+          </form>
         </div>
-      </section>
+        <img class="linkedin" src="linkedin.png" alt="Image" width="155px">
+    </div>
+  </section>
 
       <footer class="bottom-navbar">    
         <nav>
