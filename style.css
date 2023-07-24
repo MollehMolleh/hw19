@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+
+/* Top nav bar */
+
+
+.topnav {
+  display: flex;
+  height: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  background-color: #363636;
+  justify-content: flex-end;
+}
+
+.about {
+  margin-left: 791px;
+}
+
+nav img {
+  cursor: pointer;
+}
+
+ul li {
+  height: 50px;
+  display: inline-block;
+  padding: 14px;
+  cursor: pointer;
+}
+
+ul li a {
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+ul li a:hover {
+  color: #EEFF00;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+nav button {
+  display: flex;
+  padding: 6px 20px;
+  background-color: #ffffff;
+  color: #363636;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  color: #363636;
+  background-color: #EEFF00;
+}
+
+
+/* First section */
+
+
+.sectionone {
+  background-color: #363636;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sectionone h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 60px;
+  padding-left: 610px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.left-column h2 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  color: #ffffff;
+}
+
+
+.left-column p {
+  width: 670px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 2;
+}
+
+
+.viewmyskills {
+  display: flex;
+  padding: 12px 100px;
+  background-color: #ffffff;
+  color: #363636;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 18px;
+}
+
+.viewmyskills:hover {
+  background-color: #EEFF00;
+}
+
+.sectionone img {
+  position: absolute;
+  left: 230px;
+  top: 100px;
+}
+
+/* Second section */
+
+
+.sectiontwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+ }
+
+.sectiontwo h1 {
+  font-size: 32px;
+  color: #363636;
+}
+
+.sectiontwo button {
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #363636;
+  display: flex;
+  padding: 12px 100px;
+  border: 2px solid #363636;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sectiontwo button:hover {
+  background-color: #EEFF00;
+  color: #363636;
+  border: 2px solid #363636;
+}
+
+
+/* Third section */
+
+
+.sectionthree {
+  background-color: #363636;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+
+.sectionthree h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight:500;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.sectionthree div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  gap: 120px;
+}
+
+.behance {
+  cursor: pointer;
+}
+
+.linkedin {
+  cursor: pointer;
+}
+
+/* Bottom nav bar */
+
+.bottomnav {
+  display: flex;
+  height: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #363636;
+  justify-content: space-between;
+}
+
+.bottomoptions {
+  display: flex;
+  gap: 160px
+}
+
+
+/* About me */
+/* My UX Skills section coded using CSS flex */
+
+.sectiononeabout {
+  background-color: #363636;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sectiononeabout h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.sectiononeabout h2 {
+  width: 800px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.sectiononeabout p {
+  width: 800px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 2;
+}
+
+.sectiononeabout h3 {
+  font-size: 32px;
+  text-align: left;
+  width: 800px;
+}
+
+/* portfolio */
+/* My Work Section Constructed using CSS Grid */
+
+.sectiononeportfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sectiononeportfolio h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #363636;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.playground {
+  color: #363636;
+}
+
+/* media query */
+@media only screen and (max-width: 600) {
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .sectiononeabout {
+    background-color: #363636;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .sectiononeabout h2 {
+    width: 400px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  
+  .sectiononeabout p {
+    width: 400px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 2;
+  }
+  
+  .sectiononeabout h3 {
+    font-size: 32px;
+    text-align: left;
+    width: 400px;
+  }
+
+}
+
+.container h3 {
+  color: #363636;
+  font-size: 30px;
+}
+
+form {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 40px 40px;
+
+}
+
+form input, form textarea {
+  border: 0;
+  margin: 10px 0;
+  outline: none;
+  background-color: #ededed;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #363636;
+  padding: 10px;
+  width: 500px;
+}
+
+form input:hover {
+  background-color: #e2e2e2;
+}
+
+form textarea:hover {
+  background-color: #e2e2e2;
+}
+
+ form button {
+  padding: 10px;
+  background-color: #363636;
+  color: #ffffff;
+  font-size: ;
+  border: 0;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  width: 500px;
+  font-size: 18px;
+  margin: 10px;
+ }
+
+ form button:hover {
+  background-color: #EEFF00;
+  color: #363636;
+ }
+
